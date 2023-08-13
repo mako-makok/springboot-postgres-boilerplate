@@ -21,7 +21,6 @@ spring-application-default-implements = [
     "spring-boot-starter-test",
 ]
 spring-infrastructure-default-implements = [
-    "spring-boot-starter-web",
     "spring-boot-starter-jdbc",
 ]
 
