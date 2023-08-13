@@ -17,12 +17,12 @@ spring-api-default-implements = [
     "spring-boot-starter-test",
 ]
 spring-application-default-implements = [
-    "spring-boot-starter",
     "spring-boot-starter-jdbc",
     "spring-boot-starter-test",
 ]
 spring-infrastructure-default-implements = [
     "spring-boot-starter-jdbc",
+    "spring-boot-starter-test",
 ]
 
 [plugins]
