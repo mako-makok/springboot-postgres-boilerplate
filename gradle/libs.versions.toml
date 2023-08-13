@@ -9,6 +9,7 @@ spring-boot-starter-test = { group = "org.springframework.boot", name = "spring-
 spring-boot-starter-jdbc = { group = "org.springframework.boot", name = "spring-boot-starter-jdbc", version.ref="spring-boot-version"}
 spring-boot-gradle-plugin = { group = "org.springframework.boot", name = "spring-boot-gradle-plugin", version.ref="spring-boot-version"}
 flyway-core = { group = "org.flywaydb", name = "flyway-core", version.ref = "flyway-version" }
+org-postgresql-postgresql = { group = "org.postgresql", name = "postgresql", version = "42.6.0" }
 
 [bundles]
 spring-api-default-implements = [

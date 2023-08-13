@@ -5,7 +5,7 @@ plugins {
 
 dependencies {
     implementation(libs.flyway.core)
-    runtimeOnly("org.postgresql:postgresql:42.6.0")
+    runtimeOnly(libs.org.postgresql.postgresql)
 }
 
 flyway {
